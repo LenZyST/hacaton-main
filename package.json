@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "dev": "cd frontend && npm install && npm run dev"
+  },
+  "dependencies": {
+    "npm": "^11.11.0"
+  }
+}

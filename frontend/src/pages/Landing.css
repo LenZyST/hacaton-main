@@ -1,0 +1,51 @@
+.landing {
+  text-align: center;
+  padding: 3rem 0.5rem 4rem;
+  min-height: calc(100vh - 10.3rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-slogan {
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: 100px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.landing-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.btn-large {
+  padding: 0.9rem 2rem;
+  font-size: 28px;
+  min-width: 440px;
+  border-radius: 32px;
+}
+
+.landing-secondary {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 120%;
+}
+
+.landing-secondary .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  min-width: 300px;
+  border-radius: 32px;
+}

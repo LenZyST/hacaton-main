@@ -1,0 +1,9 @@
+# Backend (FastAPI + PostgreSQL)
+fastapi>=0.100.0
+uvicorn[standard]>=0.22.0
+psycopg2-binary>=2.9.0
+passlib[bcrypt]>=1.7.4
+pydantic[email]>=2.0
+python-dotenv>=1.0.0
+# ИИ-распределение по категориям (опционально)
+gigachat>=0.2.0
